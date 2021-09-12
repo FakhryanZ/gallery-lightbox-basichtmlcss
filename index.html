@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1>The Streets</h1>
+    <div class="container">
+      <ul class="gallery cf">
+        <li>
+          <a href="#overlay-street-one">
+            <img src="./img/thumb/street1.jpg" alt="Street One" class="thumb" />
+            <span>Street One</span>
+          </a>
+          <div class="overlay" id="overlay-street-one">
+            <a href="#" class="close">X</a>
+            <a href="#overlay-street-four" class="prev"></a>
+            <img src="./img/full/street1.jpg" alt="Street One" />
+            <a href="#overlay-street-two" class="next"></a>
+          </div>
+        </li>
+        <li>
+          <a href="#overlay-street-two">
+            <img src="./img/thumb/street2.jpg" alt="Street Two" class="thumb" />
+            <span>Street Two</span>
+          </a>
+          <div class="overlay" id="overlay-street-two">
+            <a href="#" class="close">X</a>
+            <a href="#overlay-street-one" class="prev"></a>
+            <img src="./img/full/street2.jpg" alt="Street Two" />
+            <a href="#overlay-street-three" class="next"></a>
+          </div>
+        </li>
+        <li>
+          <a href="#overlay-street-three">
+            <img
+              src="./img/thumb/street3.jpg"
+              alt="Street Three"
+              class="thumb"
+            />
+            <span>Street Three</span>
+          </a>
+          <div class="overlay" id="overlay-street-three">
+            <a href="#" class="close">X</a>
+            <a href="#overlay-street-two" class="prev"></a>
+            <img src="./img/full/street3.jpg" alt="Street Three" />
+            <a href="#overlay-street-four" class="next"></a>
+          </div>
+        </li>
+        <li>
+          <a href="#overlay-street-four">
+            <img
+              src="./img/thumb/street4.jpg"
+              alt="Street Four"
+              class="thumb"
+            />
+            <span>Street Four</span>
+          </a>
+          <div class="overlay" id="overlay-street-four">
+            <a href="#" class="close">X</a>
+            <a href="#overlay-street-three" class="prev"></a>
+            <img src="./img/full/street4.jpg" alt="Street Four" />
+            <a href="#overlay-street-one" class="next"></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
